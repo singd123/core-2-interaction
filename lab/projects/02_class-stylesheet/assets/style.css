@@ -1,4 +1,13 @@
 html {
-    color: rgb(243, 194, 243);
-    background-color: blue;
+    color: rgb(0, 0, 255);
+    background-color: rgb(226, 226, 244);
+}
+
+a { 
+    text-decoration: rgb(11, 54, 92);
+    color: rgb(61, 153, 234);
+}
+
+a:visited {
+    color: rgb(255, 0, 0);
 }
