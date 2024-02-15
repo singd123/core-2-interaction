@@ -1,8 +1,73 @@
+
+/* General Styles */
 html {
     background-color: rgb(97, 27, 16);
     color: rgb(235, 248, 174);
 }
 
+h1, h2, p {
+     margin: 0;
+}
+
+body {
+     max-width: 600px;
+     margin: auto;
+}
+
 .MainHeader {
     text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+     ;
+}
+/*  instade of id data-part= can aslo be used*/
+
+.part {
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid black; 
+    margin: 50px 0px 50px 0px;
+
+}
+
+#partone { background-color: rgb(119, 9, 69);
+    color: antiquewhite;
+
+}
+
+#partfive { background-color: blue;
+    color: antiquewhite;
+
+}
+
+/*  media elements */
+
+img, video, audio, object { 
+    width: 100%;
+    margin-top: 10px;
+}
+
+object {
+    aspect-ratio: 4/3;
+}
+
+.nav { 
+position: fixed;
+}
+
+.nav a {
+    color: beige;
+    text-decoration: none;
+}
+
+.nav_list {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav_item { 
+   display: inline-block;
+   background: black;
+   padding: 5px;
 }
