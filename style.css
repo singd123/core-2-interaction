@@ -1,5 +1,7 @@
 body { 
     margin-left: 3%;
+    background-color: black;
+    color: aquamarine;
 }
 
 h1 {
@@ -11,3 +13,14 @@ h3 {
     font-style: normal;
     font-family:'Courier New', Courier, monospace;
 }
+
+a { 
+    color: crimson;
+    
+}
+
+a:visited {
+    color: crimson; 
+}
+
+
