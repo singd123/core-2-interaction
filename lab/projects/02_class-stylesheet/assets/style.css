@@ -1,13 +1,93 @@
 html {
-    color: rgb(0, 0, 255);
-    background-color: rgb(226, 226, 244);
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 236, 203);
 }
 
 a { 
     text-decoration: rgb(11, 54, 92);
-    color: rgb(61, 153, 234);
+    color: rgb(233, 59, 59);
 }
 
 a:visited {
     color: rgb(255, 0, 0);
+    text-decoration: dotted;
+}
+
+h1 { 
+    font-family: sutro-deluxe-primary, sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    color: rgb(13, 115, 248);
+    
+}
+
+.Header-title { 
+    font-size: 30pt;
+    text-align: center;
+    border: 10px;
+    border-color: rgb(72, 137, 223);
+    border-style: groove;
+    border-spacing: 25px;
+}
+
+
+h2 { 
+    color: rgb(10, 88, 191);
+    font-family: sutro-open-initials, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 { 
+    color: rgb(8, 66, 142);
+    font-family: sutro-open-initials, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h4 { 
+    color: rgb(5, 44, 95);
+    font-family: sutro-open-initials, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+ol { 
+    color: rgb(175, 7, 7);
+}
+
+ul { 
+    color: rgb(107, 6, 6);
+}
+
+footer { 
+    background-color: rgb(169, 3, 3);;
+}
+
+.Fieldset-header { 
+    color: rgb(13, 115, 248); 
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Fieldset-group {
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p { 
+    font-family: "anth", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.Meta { 
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
 }
