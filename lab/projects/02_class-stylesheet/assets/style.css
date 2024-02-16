@@ -91,3 +91,7 @@ font-style: normal;
     font-style: italic;
 
 }
+
+body {
+    margin: 30px;
+}
