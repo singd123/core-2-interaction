@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "sutro-deluxe-primary";
+    src: url("./head1.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "sutro-open-initials";
+    src: url("./head.otf") format("opentype");
+  }  
+
+  @font-face {
+    font-family: "anth";
+    src: url("./text.otf") format("opentype");
+  }  
+
+  
+
 html {
     color: rgb(0, 0, 0);
     background-color: rgb(238, 236, 203);
@@ -14,7 +31,7 @@ a:visited {
 }
 
 h1 { 
-    font-family: sutro-deluxe-primary, sans-serif;
+    font-family: "sutro-deluxe-primary", sans-serif;
     font-weight: 400;
     font-style: normal;;
     color: rgb(13, 115, 248);
@@ -33,21 +50,21 @@ h1 {
 
 h2 { 
     color: rgb(10, 88, 191);
-    font-family: sutro-open-initials, sans-serif;
+    font-family: "sutro-open-initials", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
 h3 { 
     color: rgb(8, 66, 142);
-    font-family: sutro-open-initials, sans-serif;
+    font-family: "sutro-open-initials", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
 h4 { 
     color: rgb(5, 44, 95);
-    font-family: sutro-open-initials, sans-serif;
+    font-family: "sutro-open-initials", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
