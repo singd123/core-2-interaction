@@ -89,3 +89,25 @@ h1 {
 #anxietyh1 { 
     font-size: 60pt;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin: 5%;
+    }
+  
+    h1,
+    #peaceh1,
+    #fearh1,
+    #angerh1,
+    #anxietyh1 {
+      font-size: 40pt;
+    }
+  
+    .text {
+      font-size: 12pt;
+    }
+  }
