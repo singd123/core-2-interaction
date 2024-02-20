@@ -1,29 +1,40 @@
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>
-     Going with the Flow 
-    </title>
-</head>
+  <head>
+    <title>Emotional Currents</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/gmj8dvu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-<body>
-    <main>
-     <div id="mainbox" class="mainbox">
-        <div class="box" id="box">
-            <div class="box1">
+    <h1><center>Spin the wheel to reveal your secret!</center><br> 
+    
+	<div id="mainbox" class="mainbox">
+		<div id="box" class="box">
+			<div class="box1">
+				<span class="span2"><b>Peace</b></span>
                 <span class="span1"><b>Anger</b></span>
-                <span class="span2"><b>Pain</b></span>
-                <span class="span3"><b>Confusion</b></span>
-            </div>
-            <div class="box2">
-                <span class="span1"><b>Anexity</b></span>
-                <span class="span2"><b>Happiness</b></span>
-                <span class="span3"><b>Peace</b></span>
-            </div>
-        </div>
-        <button class="spin" onclick="rotateFunction()">SPIN</button>
-     </div>
-    </main>
-    <script src="script.js"></script>
-</body>
+					
+			</div>
+			<div class="box2">
+                <span class="span2" id="color"><b>Fear</b></span>
+				<span class="span1" id="color2"><b>Anxiety</b></span>
+				
+			</div>
+		</div>
+
+		<button class="spin" onclick="myfunction()">SPIN</button>
+	</div>
+
+    <!-- Add this below your button in the HTML -->
+    <br> 
+
+<!-- Add this below your button in the HTML -->
+<div id="result" class=""></div>
+
+  
+  <script src="script.js"></script>
+  </body>
 </html>
