@@ -90,8 +90,43 @@ h1 {
     font-size: 60pt;
 }
 
+.context { 
+    font-size: 17pt;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 175);
 
-
+}
+.title {
+    font-size: 20pt;
+    font-family: "miller-text", serif;
+    font-weight: 550;
+    font-style: italic;
+    color: rgb(237, 236, 236);
+}
+.credits {
+    font-size: 17pt;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
+a {
+text-decoration: white;
+text-decoration: double;
+color: white;
+font-size: 20pt;
+    font-family: "miller-text", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+a:visited{
+    text-decoration: rgb(151, 169, 252);
+text-decoration: double;
+color: rgb(151, 169, 252);
+}
 @media only screen and (max-width: 600px) {
     body {
       margin-left: 5%;
@@ -111,3 +146,5 @@ h1 {
       font-size: 12pt;
     }
   }
+
+ 
