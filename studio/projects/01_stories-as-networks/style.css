@@ -185,4 +185,33 @@ font-style: normal; /* Change 'Your Font 4' to the desired font for Anxiety */
   
   /* Existing styles... */
   
+  @media only screen and (max-width: 600px) {
+    .mainbox {
+      width: 80vw;
+      height: 80vw;
+      font-size: 16pt;
+    }
+  
+    .mainbox:after {
+      right: -15px;
+    }
+    
+    h1 {
+        font-size: 20pt;
+    }
+  
+    .box {
+      border: 5px solid #fff;
+    }
+  
+    span b {
+      font-size: 25px;
+    }
+  
+    .spin {
+      width: 50px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
   
