@@ -1,3 +1,4 @@
+
 var currentRotation = 180; // Initialize to a specific angle (e.g., 180 degrees)
 
 // Call myfunction when the page loads to set the initial rotation
@@ -57,9 +58,10 @@ function myfunction() {
       break;
         break;
       case 1:
-        resultText = 'Fear';
-        resultElement.className = 'fear'; // Add class for Happiness
-        resultElement.innerHTML = createLink('./assets/fear.html', resultText); // Create a clickable link// Create a clickable link
+        resultText = 'Anxiety';
+        resultElement.className = 'anxiety'; // Add class for Anxiety
+        resultElement.innerHTML = createLink('./assets/anxiety.html', resultText); // Create a clickable link
+      
         break;
       case 2:
         resultText = 'Anger';
@@ -68,9 +70,9 @@ function myfunction() {
         
         break;
       case 3:
-        resultText = 'Anxiety';
-        resultElement.className = 'anxiety'; // Add class for Anxiety
-        resultElement.innerHTML = createLink('./assets/anxiety.html', resultText); // Create a clickable link
+        resultText = 'Fear';
+        resultElement.className = 'fear'; // Remove existing classes
+        resultElement.innerHTML = createLink('./assets/fear.html', resultText);
       break;
       default:
         resultText = 'Error: Invalid option';
@@ -81,6 +83,5 @@ function myfunction() {
   
     function createLink(url, text) {
         // Create a clickable link
-        return '<a href="' + url + '" target="_blank">' + text + '</a>';
+        return '<a href="' + url + '" >' + text + '</a>';
       }
-  
