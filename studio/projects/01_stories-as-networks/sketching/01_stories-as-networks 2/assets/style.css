@@ -1,0 +1,149 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin: 15%;
+
+}
+
+#anxietybody {
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(2, 40, 5));
+}
+
+#fearbody {
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(37, 3, 51));
+
+}
+
+#peacebody {
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(104, 102, 97));
+
+}
+
+#angerbody {
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(104, 4, 4));
+
+}
+
+.anxiety {
+    font-family: "westsac", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: green;
+    font-size: 25pt;
+}
+
+.fear {
+    font-family: "burnaby-stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    font-size: 25pt;
+}
+
+.anger {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: red;  
+    font-size: 25pt;  
+}
+
+.peace {
+    font-family: "zahrah", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;  
+    font-size: 25pt;  
+}
+
+.text { 
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 175);
+    font-size: 15pt;
+    text-align: left;
+    
+}
+
+h1 { 
+    font-size: 60pt;
+}
+
+#peaceh1 { 
+    font-size: 60pt;
+}
+
+#fearh1 { 
+    font-size: 60pt;
+}
+
+#angerh1 { 
+    font-size: 60pt;
+}
+
+#anxietyh1 { 
+    font-size: 60pt;
+}
+
+.context { 
+    font-size: 17pt;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 175);
+
+}
+.title {
+    font-size: 20pt;
+    font-family: "miller-text", serif;
+    font-weight: 550;
+    font-style: italic;
+    color: rgb(237, 236, 236);
+}
+.credits {
+    font-size: 17pt;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
+a {
+text-decoration: double;
+color: white;
+font-size: 20pt;
+    font-family: "miller-text", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+a:visited{
+    text-decoration: rgb(151, 169, 252);
+text-decoration: double;
+color: rgb(151, 169, 252);
+}
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin: 5%;
+    }
+  
+    h1,
+    #peaceh1,
+    #fearh1,
+    #angerh1,
+    #anxietyh1 {
+      font-size: 40pt;
+    }
+  
+    .text {
+      font-size: 12pt;
+    }
+  }
+
+ 

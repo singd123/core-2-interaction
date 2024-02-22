@@ -1,0 +1,322 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  h1 { 
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+font-size: 20pt;
+font-style: normal;
+text-align: center;
+
+  }
+  body {
+    font-family: "open-sans", sans-serif;
+font-weight: 500;
+font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgb(60, 60, 242);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 0%,
+      rgb(29, 29, 29) 52%,
+      rgb(0, 0, 0) 100%
+    );
+    background-size: cover;
+  }
+  
+  .mainbox {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    font-size: 20pt;
+  }
+  
+  .mainbox:after {
+    position: relative ;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url('arrow-left.png') no-repeat;
+    background-size: 32px;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+  }
+  
+  .box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    overflow: hidden;
+    transition: all ease 5s;
+    color: #000;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: -10px;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .box2 { 
+    margin-left: -50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .span {
+    width: 250px; /* Adjusted width for 4 polygons */
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+  
+  .span1 {
+    background-color: red;
+    color: white;
+    font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+    top: 0px;
+    left: 0px;
+    
+  }
+
+  
+  #color { 
+    background-color: blueviolet;
+    color: white ;
+    font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+top: 0px;
+    left: 0px;
+    
+    
+    
+
+  }
+
+  #color2 { 
+    background-color: green;
+    color: white;
+    font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+   
+
+    
+
+
+  }
+
+  .span2 {
+    background-color: #c9b984;
+    color: #fff;
+    top: 0;
+    right: 0;
+    font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+position: relative;
+  }
+  
+  .box .span1 p,
+  .box .span4 p {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+ /* .box2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(1800deg); /* Adjusted rotation for 4 polygons */
+   */
+
+
+
+  
+  .span p {
+    font-size: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "open-sans", sans-serif;
+font-weight: 450;
+font-style: normal;
+  }
+  .span2 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transform: rotate(45deg);
+  }
+  
+  .spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: #001aff;
+    color: #fff;
+    box-shadow: 0 5px 20px #000;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .spin:active {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+  
+  .mainbox.animate:after {
+    animation: animateArrow 0.7s ease infinite;
+  }
+  
+  @keyframes animateArrow {
+    50% {
+      right: -40px;
+    }
+  }
+
+
+  /* Existing styles... */
+
+  a #result.anger {
+    text-decoration: underline;
+    color: #ff0000; }
+
+#result.anger a:visited {
+text-decoration: underline;
+color: red; }    
+        
+#result.anxiety a {
+    text-decoration: underline;
+    color: green; }
+
+#result.anxiety a:visited {
+     text-decoration: underline;
+     color: green; }    
+
+ #result.fear a {
+    text-decoration: underline;
+    color: blueviolet; }   
+
+#result.fear a:visited{
+    text-decoration: underline;
+    color: blueviolet; } 
+            
+#result a {
+    text-decoration: underline;
+    color: antiquewhite; }
+
+#result a:visited {
+    text-decoration: underline;
+    color: antiquewhite; } 
+
+
+#result {
+    font-family: "zahrah", serif;
+font-weight: 500;
+font-style: normal; /* Change 'Your Font 1' to the desired font for Confusion */
+    font-size: 35pt; /* Adjust the font size as needed */
+    color: antiquewhite; 
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  #result.anger {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal; /* Change 'Your Font 2' to the desired font for Anger */
+    font-size: 35pt; /* Adjust the font size as needed */
+    color: #ff0000; 
+    text-decoration: none;
+    text-align: center;/* Font color for Anger */
+  }
+  
+  #result.fear {
+    font-family: battery-park, sans-serif;
+    font-weight: 400;
+    font-style: normal; /* Change 'Your Font 3' to the desired font for Happiness */
+    font-size: 35pt; /* Adjust the font size as needed */
+    color: blueviolet; 
+    text-decoration: none;
+    text-align: center;/* Font color for Happiness */
+  }
+  
+  #result.anxiety {
+    font-family: westsac, sans-serif;
+font-weight: 400;
+font-style: normal; /* Change 'Your Font 4' to the desired font for Anxiety */
+    font-size: 35pt; /* Adjust the font size as needed */
+    color: green; 
+    text-decoration: none;
+    text-align: center;/* Font color for Anxiety */
+  }
+  
+  /* Existing styles... */
+  
+  @media only screen and (max-width: 600px) {
+    .mainbox {
+      width: 80vw;
+      height: 80vw;
+      font-size: 16pt;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .mainbox:after {
+      right: -15px;
+    }
+    
+    h1 {
+        font-size: 20pt;
+    }
+  
+    .box {
+      border: 5px solid #fff;
+      margin: 0;
+      padding: 0;
+    }
+  
+    span p {
+      font-size: 25px;
+    }
+  
+    .spin {
+      width: 50px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
