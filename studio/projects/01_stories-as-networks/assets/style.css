@@ -33,7 +33,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: green;
-    font-size: 25pt;
+    font-size: 18pt;
 }
 
 .fear {
@@ -41,7 +41,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: blueviolet;
-    font-size: 25pt;
+    font-size: 18pt;
 }
 
 .anger {
@@ -49,7 +49,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: red;  
-    font-size: 25pt;  
+    font-size: 16pt;  
 }
 
 .peace {
@@ -57,7 +57,7 @@ body {
     font-weight: 500;
     font-style: normal;
     color: white;  
-    font-size: 25pt;  
+    font-size: 18pt;  
 }
 
 .text { 
@@ -92,7 +92,7 @@ h1 {
 
 .context { 
     font-size: 17pt;
-    font-family: "miller-text", serif;
+    font-family: "thrillers", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(175, 175, 175);
@@ -100,14 +100,14 @@ h1 {
 }
 .title {
     font-size: 20pt;
-    font-family: "miller-text", serif;
-    font-weight: 550;
-    font-style: italic;
+    font-family: "thrillers", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: rgb(237, 236, 236);
 }
 .credits {
     font-size: 17pt;
-    font-family: "miller-text", serif;
+    font-family: "thrillers", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(175, 175, 175);
@@ -117,9 +117,9 @@ a {
 text-decoration: double;
 color: white;
 font-size: 20pt;
-    font-family: "miller-text", serif;
-    font-weight: 500;
-    font-style: normal;
+font-family: "thrillers", sans-serif;
+font-weight: 450;
+font-style: normal;
 }
 a:visited{
     text-decoration: rgb(151, 169, 252);

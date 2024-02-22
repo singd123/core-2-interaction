@@ -7,18 +7,18 @@
   }
   
   h1 { 
-    font-family: open-sans, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family: "thrillers", sans-serif;
+font-weight: 450;
+font-style: normal;
     color: #fff;
-font-size: 20pt;
+font-size: 35pt;
 font-style: normal;
 text-align: center;
 
   }
   body {
-    font-family: "open-sans", sans-serif;
-font-weight: 500;
+    font-family: "thrillers", sans-serif;
+font-weight: 400;
 font-style: normal;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ font-style: normal;
     height: 100%;
     position: relative;
     border-radius: 50%;
-    border: 10px solid #ffffff;
+    border: 5px solid #ffffff;
     overflow: hidden;
     transition: all ease 5s;
     color: #000;
@@ -73,19 +73,18 @@ font-style: normal;
     display: inline-block;
     position: absolute;
 
-    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-    
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .span1 {
     clip-path: polygon(0 100%, 100% 50%, 0 0%);
     background-color: red;
     color: white;
-    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     top: 0px;
     left: 0px;
     
@@ -94,17 +93,17 @@ font-style: normal;
   #color { 
     background-color: blueviolet;
     color: white ;
-    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   #color2 { 
     background-color: green;
     color: white;
-    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .span2 {
@@ -113,9 +112,9 @@ font-style: normal;
     color: #fff;
     top: 0;
     right: 0;
-    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .box1 .span1 b,
@@ -139,17 +138,18 @@ font-style: normal;
 
   
   span b {
-    font-size: 30px;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "open-sans", sans-serif;
-font-weight: 450;
-font-style: normal;
+    font-family: "thrillers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .spin {
+    z-index: 3;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -256,6 +256,19 @@ font-style: normal; /* Change 'Your Font 4' to the desired font for Anxiety */
     color: green; 
     text-decoration: none;
     text-align: center;/* Font color for Anxiety */
+  }
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+  .peace{
+    z-index: 2;
+  }
+
+  .fear{
+    z-index: -1;
   }
   
   /* Existing styles... */
