@@ -186,35 +186,35 @@ font-style: normal;
   /* Existing styles... */
 
   a #result.anger {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ff0000; }
 
 #result.anger a:visited {
-text-decoration: underline;
+text-decoration: none;
 color: red; }    
         
 #result.anxiety a {
-    text-decoration: underline;
+    text-decoration: none;
     color: green; }
 
 #result.anxiety a:visited {
-     text-decoration: underline;
+     text-decoration: none;
      color: green; }    
 
  #result.fear a {
-    text-decoration: underline;
+    text-decoration: none;
     color: blueviolet; }   
 
 #result.fear a:visited{
-    text-decoration: underline;
+    text-decoration: none;
     color: blueviolet; } 
             
 #result a {
-    text-decoration: underline;
+    text-decoration: none;
     color: antiquewhite; }
 
 #result a:visited {
-    text-decoration: underline;
+    text-decoration: none;
     color: antiquewhite; } 
 
 
