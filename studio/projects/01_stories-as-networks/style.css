@@ -185,7 +185,7 @@ font-style: normal;
 
   /* Existing styles... */
 
-  a #result.anger {
+  #result.anger a {
     text-decoration: none;
     color: #ff0000; }
 
