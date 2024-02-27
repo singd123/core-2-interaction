@@ -1,0 +1,43 @@
+.Group { 
+    background: aqua;
+    border: 1px solid blue;
+    padding: 10px;
+
+    /* grid */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Classmate { 
+    background-color: dodgerblue;
+    border: 1px solid blue;
+    padding: 10px;
+    color: blue;
+}
+
+.Main { 
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.GroupOne { 
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#Divyani { 
+
+    grid-column-start: 3;
+    grid-column-end:  2;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

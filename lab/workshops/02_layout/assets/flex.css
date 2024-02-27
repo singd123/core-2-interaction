@@ -1,0 +1,69 @@
+.Group {
+    background-color: lime;
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+
+    /* flex
+    command shit L for copying all the appearences */
+
+
+    display: flex;
+    gap: 10px;
+}
+
+.Classmate { 
+    background-color: pink;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+    /* flex Direction*/ 
+
+.GroupFour, 
+.GroupFive, 
+.GroupSix {
+    flex-direction: column;
+ }
+
+    /* Justify Content */ 
+
+.GroupOne { 
+    justify-content: start;
+    align-items: start;
+} 
+
+.GroupTwo { 
+    justify-content: center;
+    align-items: center;
+} 
+
+.GroupThree { 
+    justify-content: end;
+    align-items: end;
+} 
+
+.GroupFour { 
+    justify-content: start;
+    align-items: start;
+} 
+
+.GroupFive { 
+    justify-content: center;
+    align-items: center;
+} 
+
+.GroupSix { 
+    justify-content: end;
+    align-items: end;
+} 
+
+/* My clothes */
+
+#Brianna { 
+    display: flex;
+    gap: 10px;
+    align-self: end;
+    
+}
