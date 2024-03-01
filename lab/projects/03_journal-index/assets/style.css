@@ -1,0 +1,85 @@
+body { 
+    background-color: rgb(26, 20, 20);
+}
+
+.flex { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: beige;
+}
+h4 { 
+    color: rgb(245, 245, 220, 0.7);
+    font-family: "the-seasons", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 25px;
+font-style: italic;
+text-align: center;
+
+
+}
+
+h1 { 
+    text-align: center;
+    color: beige;
+    font-size: 60px;
+    font-family: "parlare", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.one { 
+    border-style: solid;
+    border-color: rgb(255, 105, 180, 0.5);
+    border-radius: 5px;
+    border-width: 5%;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.two { 
+    border-style: solid;
+    border-color: rgb(255, 105, 180, 0.5);
+    border-radius: 5px;
+    border-width: 5%;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.three { 
+    border-style: solid;
+    border-color: rgb(255, 105, 180, 0.5);
+    border-radius: 5px;
+    border-width: 5%;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+a { 
+    text-decoration:none;
+    color:hotpink;
+}
+
+.img { 
+    left: 50%;
+}
