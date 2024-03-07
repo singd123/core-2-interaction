@@ -1,4 +1,4 @@
-console.log('\n\nARRAY\n\n\n'); 
+console.log('\n\SpiceSpectrum\n\n\n'); 
 // An array of objects representing my collection:
 var data = [
 
