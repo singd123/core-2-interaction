@@ -1,0 +1,91 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  background-image: linear-gradient(to right, #fdc52f, #fdca4b, #fcd062, #fcd578, #fbda8d, #fbda8d, #fcdb8e, #fcdb8e, #fdd67a, #fed266, #ffcd50, #ffc837);  margin: 2.5vw auto;
+  position: relative;
+}
+
+
+.table { 
+  width: 95vw; 
+  height: 29.5vw;
+  background-color: rgb(98, 68, 20);
+  z-index: 10;
+  position: relative;
+  top: 50.2%;
+  background: linear-gradient(to bottom, #443109 11%, #996a05 88%);
+
+}
+
+.circle1 { 
+  width: 13.5vw;
+  height: 13.5vw;
+  border-radius: 50%;
+  background-color: #996a05;
+  background: linear-gradient(to bottom left, #443109 11%, #ffaa00 100%);  position: relative;  
+  top: -15%;
+  left: 35%;
+  z-index: 20;
+}
+
+#circle2 { 
+  top: -30%;
+  left: 28%;
+
+}
+
+.orange { 
+  width: 15.5vw;
+  height: 11.5vw;
+  border-radius: 13.5vw / 10.5vw;
+  transform: rotate(-13deg);
+  background: linear-gradient(to bottom, #f89e27 15%, #d36f03 100%);
+  background-color: orange;
+  z-index: 30;
+  position: relative;
+  top: -35%;
+  left: 24%;
+
+}
+
+.bud1 { 
+  width: 3vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  z-index: 40;
+  transform: rotate(-10deg);
+  background-color: #faa330;
+  position: relative;
+  top: -44%;
+  left: 23%;
+}
+
+#bud2 { 
+  top: -55%;
+  left: 38%;
+  background-color:#d36f03;
+}
+
+.glass {
+  clip-path: polygon(25% 25%, 75% 25%, 61.72% 82.75%, 61.72% 82.75%, 25% 82.75%);
+  background-color: rgb(117, 109, 68);
+
+}
+/* Your CSS goes here */
