@@ -63,7 +63,7 @@ img {
     width: 10%;
     height: 800px;
     position: relative;
-    left: 10.25%;
+    left: -10.25%;
     top: -150%;
   }
   
