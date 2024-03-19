@@ -98,8 +98,6 @@ img {
   .dropdown-content a:hover {background-color: #545454;}
   
   .dropdown:hover .dropdown-content {display: block;
-    left: 100%;
-    top: -150%;
 }
 
   .drop2:hover .content {display: block;}
