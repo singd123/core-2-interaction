@@ -94,12 +94,21 @@ img {
     top: -150%;
   }
 
-
+.menu {
+    z-index: 1000;
+    position: relative;
+    width: 10%;
+    top: -150%;
+    left: -1%;
+}
   .dropdown-content a:hover {background-color: #545454;}
   
   .dropdown:hover .dropdown-content {display: block;
 }
 
+.dropdown:hover .menu { transform: rotate(-30deg);
+
+}
   .drop2:hover .content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #232323;}
