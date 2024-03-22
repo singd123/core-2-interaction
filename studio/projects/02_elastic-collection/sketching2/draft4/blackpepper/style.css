@@ -1,0 +1,64 @@
+body
+ { 
+    background-color: #303030;
+ }
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 50px;
+    border: none;
+    width: 80%;
+    height: 13%;
+    transform: rotate(-90deg);
+    position: fixed;
+    left: -37%;
+    top: 45%;
+    text-decoration: none;
+  }
+a {
+    text-decoration: none;
+    color: white;
+}
+  img { 
+    position: relative;
+    left: 28%;
+    top: 15%;
+    width: 50%;
+  }
+
+  figcaption{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  #bio { 
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+  }
+
+  .grid { 
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 80px;
+    column-gap: 200px;
+  }
+
+  h2 { 
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: wavy;
+    color: white;
+  }
+
+  p { 
+    color: white;
+  }
+
+  main { 
+    margin-left: 10%;
+  }
