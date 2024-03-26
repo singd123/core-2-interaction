@@ -13,7 +13,7 @@ var data = [
     timeofOrigin: ['Ancient times'],
     subRegion: 'Central Asia',
     culturalRespresentation: ['Indian', 'Middle Eastern', 'Central Asian'],
-    image: 'IMG_6145.png',
+    image: 'IMG_6145.PNG',
 },
 
 // Bay Leaf
@@ -23,7 +23,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: ['Mediterranean', 'European'],
-    image: 'IMG_6146.png',
+    image: 'IMG_6146.PNG',
 },
 
 // Basil
@@ -43,7 +43,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Middle East',
     culturalRespresentation: ['Middle Eastern', 'Indian', 'North African'],
-    image: 'IMG_6147.png',
+    image: 'IMG_6147.PNG',
 },
 
 // Black Mustard
@@ -53,7 +53,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: ['Mediterranean', 'European', 'Indian'],
-    image: 'IMG_6148.png',
+    image: 'IMG_6148.PNG',
 },
 
 // Black Pepper
@@ -63,7 +63,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: ['Global', 'South Asian', 'European', 'American cuisines'],
-    image: 'IMG_6127.png',
+    image: 'IMG_6127.PNG',
 },
 
 // Caraway
@@ -73,7 +73,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: ['European', 'Middle Eastern'],
-    image: 'IMG_6149.png',
+    image: 'IMG_6149.PNG',
 
 },
 
@@ -84,7 +84,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: ['South Asian', 'Middle Eastern', 'European'], 
-    image: 'IMG_6150.png',
+    image: 'IMG_6150.PNG',
 
 },
 
@@ -95,7 +95,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: ['Asian', 'Chinese'], 
-    image: 'IMG_6154.png',
+    image: 'IMG_6154.PNG',
 
 },
 
@@ -116,7 +116,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: 'Global, particularly in South Asian, Middle Eastern, and European cuisines',
-    image: 'IMG_6133.png',
+    image: 'IMG_6133.PNG',
 
 
 },
@@ -128,7 +128,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Molucca Islands',
     culturalRespresentation: 'Global, particularly in Asian, Middle Eastern, and European cuisines',
-    image: 'IMG_6153.png',
+    image: 'IMG_6153.PNG',
 
 },
 
@@ -139,7 +139,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Central America',
     culturalRespresentation: 'Central and South American, European',
-    image: 'IMG_6155.png',
+    image: 'IMG_6155.PNG',
 
 },
 
@@ -150,7 +150,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Eastern Mediterranean',
     culturalRespresentation: 'Global, particularly in Middle Eastern, Indian, and Mexican cuisines',
-    image: 'IMG_6156.png',
+    image: 'IMG_6156.PNG',
 
 },
 
@@ -161,7 +161,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'European, Middle Eastern, Scandinavian',
-    image: 'IMG_6157.png',
+    image: 'IMG_6157.PNG',
 
 
 },
@@ -173,7 +173,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Indian',
-    image: 'IMG_6158.png',
+    image: 'IMG_6158.PNG',
 },
 
 // Fenugreek
@@ -183,7 +183,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Eastern Mediterranean',
     culturalRespresentation: 'Indian, Middle Eastern',
-    image: 'IMG_6159.png',
+    image: 'IMG_6159.PNG',
 
 },
 
@@ -194,7 +194,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: 'Southeast Asian, Indian',
-    image: 'Subject 131.png',
+    image: 'Subject 131.PNG',
 
     
 },
@@ -206,7 +206,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
-    image: 'IMG_6162.png',
+    image: 'IMG_6162.PNG',
 
 },
 
@@ -217,7 +217,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: 'Southeast Asian, Indian',
-    image: 'IMG_7059.png',
+    image: 'IMG_7059.PNG',
 
 
 },
@@ -263,7 +263,7 @@ var data = [
     timeofOrigin: '16th century',
     subRegion: 'Central America',
     culturalRespresentation: 'Hungarian, Spanish, European',
-    image: 'IMG_7057.png',
+    image: 'IMG_7057.PNG',
 
 },
 
@@ -274,7 +274,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
-    image: 'IMG_7058.png',
+    image: 'IMG_7058.PNG',
 
 },
 
@@ -285,7 +285,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'Global, used in various culinary and medicinal applications',
-    image: 'IMG_7060.png',
+    image: 'IMG_7060.PNG',
 
 },
 
@@ -296,7 +296,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Asian',
-    image: 'IMG_7061.png',
+    image: 'IMG_7061.PNG',
 
 },
 
@@ -307,7 +307,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
-    image: 'IMG_7062.png',
+    image: 'IMG_7062.PNG',
 
 },
 
@@ -318,7 +318,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, Middle Eastern, Indian',
-    image: 'IMG_7063.png',
+    image: 'IMG_7063.PNG',
 
 },
 
@@ -329,7 +329,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
-    image: 'IMG_7064.png',
+    image: 'IMG_7064.PNG',
 
 },
 
@@ -340,7 +340,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Africa',
     culturalRespresentation: 'Asian, Middle Eastern, African',
-    image: 'IMG_7065.png',
+    image: 'IMG_7065.PNG',
 
 },
 
