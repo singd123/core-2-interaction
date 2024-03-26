@@ -1,9 +1,17 @@
+body {
+	background: white;
+	background-image: url(assests/360_F_124313739_k7DmMQARYcIMQMvj26shzJQYA2VZOAcy.jpg);
+	margin: 0;
+	}
+
 .Container {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
     padding: 80px;
     column-gap: 70px;
 	row-gap: 100px;
+	margin-left: 10%;
+margin-right: 2.5%;
 }
 
 .spices { 
@@ -27,6 +35,3 @@ font-size: 20pt;
 color: antiquewhite;
 }
 
-body { 
-	background-color: rgb(252, 207, 102);
-}
