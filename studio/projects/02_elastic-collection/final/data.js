@@ -194,7 +194,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: 'Southeast Asian, Indian',
-    image: 'Subject 131.PNG',
+    image: 'Subject 131.png',
 
     
 },
@@ -362,7 +362,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'China',
     culturalRespresentation: 'Chinese, Vietnamese',
-    image: 'IMG_6144.png',
+    image: 'IMG_6144.PNG',
 
 },
 
@@ -373,7 +373,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'Global, used in various culinary and medicinal applications',
-    image: 'IMG_7066.png',
+    image: 'IMG_7066.PNG',
     
 },
 
@@ -384,7 +384,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'European, Russian', 
-    image: 'IMG_7067.png',
+    image: 'IMG_7067.PNG',
 
 },
 
@@ -395,7 +395,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
-    image: 'IMG_7004.png',
+    image: 'IMG_7004.PNG',
 
 },
 
@@ -406,7 +406,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: 'South Asian, Middle Eastern',
-    image: 'IMG_7068.png',
+    image: 'IMG_7068.PNG',
 
 },
 
@@ -417,7 +417,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'central america',
     culturalRespresentation: 'Global, particularly in European and American desserts',
-    image: 'IMG_7069.png',
+    image: 'IMG_7069.PNG',
 
 },
 
@@ -428,7 +428,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Japan',
     culturalRespresentation: 'Japanese, Asian',
-    image: 'IMG_7070.png',
+    image: 'IMG_7070.PNG',
 
 },
 
@@ -439,7 +439,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Indian',
-    image: 'IMG_7071.png',
+    image: 'IMG_7071.PNG',
 
 }];
 
