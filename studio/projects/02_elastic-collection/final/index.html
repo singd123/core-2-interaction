@@ -18,20 +18,20 @@
             
             <div class="drop2"> <button class="dropdown-2"><a href="#">Flavour</a></button> 
                 <div class="content">
-                    <a  class="filter">warm</a>
-                    <a class="filter" href="#">sweet</a>
-                    <a class="filter" href="#">earthy</a>
-                    <a class="filter" href="#">pungent</a>
+                    <a class="filter" data-flavour="Warm" href="#">warm</a>
+                    <a class="filter" data-flavour="Sweet" href="#">sweet</a>
+                    <a class="filter" data-flavour="Earthy" href="#">earthy</a>
+                    <a class="filter" data-flavour="Pungent" href="#">pungent</a>
                 </div>    
             </div>
              <br>
             <br>
             <div class="drop2"> <button class="dropdown-2"><a href="#">Time</a></button>  
             <div class="content">
-                <a class="filter" href="#">15th century</a>
-                <a class="filter" href="#">16th century</a>
-                <a class="filter" href="#">14th century</a>
-                <a class="filter" href="#">17th century</a>
+                <a class="time-filter filter" data-time="Ancient times" href="#">Ancient Time</a>
+                <a class="time-filter filter" data-time="15th century" href="#">15th century</a>
+                <a class="time-filter filter" data-time="16th century" href="#">16th century</a>
+                <a class="time-filter filter" data-time="17th century" href="#">17th century</a>
             </div>     
         </div>         
             <br>
@@ -39,10 +39,10 @@
 
             <div class="drop2"> <button class="dropdown-2"><a href="#">Location</a></button> 
             <div class="content">
-                <a class="filter" href="#">Mediterranean</a>
-                <a class="filter" href="#">South asia</a>
-                <a class="filter" href="#">Europe</a>
-                <a class="filter" href="#">Central America</a>
+                <a class="subregion-filter filter" data-subregion="Mediterranean" href="#">Mediterranean</a>
+                <a class="subregion-filter filter" data-subregion="South Asia" href="#">South asia</a>
+                <a class="subregion-filter filter" data-subregion="Europe" href="#">Europe</a>
+                <a class="subregion-filter filter" data-subregion="Central America" href="#">Central America</a>
             </div>  
         </div>           
             <br>
@@ -55,6 +55,7 @@
                 <a class="filter" href="#">Actual Size</a>
             </div>    
         </div>   
+			<button class="dropdown-2 reset"><a href="#">Reset</a></button>
         </div>
     </div>
 	<main class="Container">

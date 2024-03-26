@@ -10,23 +10,22 @@ body {
     padding: 80px;
     column-gap: 70px;
 	row-gap: 100px;
-	margin-left: 10%;
+	margin-left: 12%;
 margin-right: 2.5%;
+text-align: center;
 }
 
 img { 
-    display: block;
+   display: block;
+   width: 90%;
     
 }
 
 .spices { 
-	border: 4px;
-	border-style: solid;
-	border-color:darkgoldenrod; 
-	border-radius: 7%;
-	padding: 20px ;
-	box-shadow: 5px 5px 6px #141414;
-	background-color: rgb(7, 52, 7);
+	
+	text-align: center;
+	
+	
 	color: rgb(254, 240, 184);
 
 }
@@ -36,9 +35,10 @@ img {
 font-weight: 600;
 font-style: normal;
 text-align: center;
-font-size: 20pt;
-color: antiquewhite;
+font-size: 15pt;
+color:rgb(146, 108, 13);
 display: none;
+text-align: center;
 }
 
 .spices:hover .name {
@@ -153,6 +153,12 @@ text-align: left;
     top: 0;
     left: -1%;
     
+}
+
+.reset {
+	top: -10%;
+	position: relative;
+	z-index: 10;
 }
 
   .dropdown-content a:hover {background-color: #545454;}

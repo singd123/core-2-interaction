@@ -1,3 +1,5 @@
+
+
 console.log('\n\SpiceSpectrum\n\n\n'); 
 // An array of objects representing my collection:
 var data = [
@@ -7,70 +9,70 @@ var data = [
 // Asafoetida
 {
     spiceName: 'Asafoetida',
-    flavourProfile: 'Pungent and Savory',
-    timeofOrigin: 'Ancient times',
+    flavourProfile: ['Pungent', 'Savory'],
+    timeofOrigin: ['Ancient times'],
     subRegion: 'Central Asia',
-    culturalRespresentation: 'Indian, Middle Eastern, Central Asian', 
+    culturalRespresentation: ['Indian', 'Middle Eastern', 'Central Asian'],
     image: 'IMG_6145.png',
 },
 
 // Bay Leaf
 {
     spiceName: 'Bay Leaf',
-    flavourProfile: 'Earthy and Floral',
+    flavourProfile: ['Earthy' ,'Floral'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
-    culturalRespresentation: 'Mediterranean, European',
+    culturalRespresentation: ['Mediterranean', 'European'],
     image: 'IMG_6146.png',
 },
 
 // Basil
 {
     spiceName: 'Basil',
-    flavourProfile: 'Sweet and Herbaceous',
+    flavourProfile: ['Sweet' , 'Herbaceous'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
-    culturalRespresentation: 'Mediterranean, European, Southeast Asian', 
+    culturalRespresentation: ['Mediterranean', 'European', 'Southeast Asian'], 
     image: 'Subject 130.png',
 },
 
 // Black Cumin
 {
     spiceName: 'Black Cumin',
-    flavourProfile: 'Earthy and Nutty',
+    flavourProfile: ['Earthy' , 'Nutty'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Middle East',
-    culturalRespresentation: 'Middle Eastern, Indian, North African',
+    culturalRespresentation: ['Middle Eastern', 'Indian', 'North African'],
     image: 'IMG_6147.png',
 },
 
 // Black Mustard
 {
     spiceName: 'Black Mustard',
-    flavourProfile: 'Bold and Pungent',
+    flavourProfile: ['Bold' , 'Pungent'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
-    culturalRespresentation: 'Mediterranean, European, Indian',
+    culturalRespresentation: ['Mediterranean', 'European', 'Indian'],
     image: 'IMG_6148.png',
 },
 
 // Black Pepper
 {
     spiceName: 'Black Pepper',
-    flavourProfile: 'Pungent and Earthy',
+    flavourProfile: ['Pungent' , 'Earthy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
-    culturalRespresentation: 'Global, particularly in South Asian, European, and American cuisines',
+    culturalRespresentation: ['Global', 'South Asian', 'European', 'American cuisines'],
     image: 'IMG_6127.png',
 },
 
 // Caraway
 {
     spiceName: 'Caraway',
-    flavourProfile: 'Warm and Anise-Like',
+    flavourProfile: ['Warm', 'anise-like'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
-    culturalRespresentation: 'European, Middle Eastern',
+    culturalRespresentation: ['European', 'Middle Eastern'],
     image: 'IMG_6149.png',
 
 },
@@ -78,10 +80,10 @@ var data = [
 // Cardamom
 {
     spiceName: 'Cardamom',
-    flavourProfile: 'Citrusy and Spicy-Sweet',
+    flavourProfile: ['Citrusy' , 'Spicy-Sweet'],
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
-    culturalRespresentation: 'South Asian, Middle Eastern, European', 
+    culturalRespresentation: ['South Asian', 'Middle Eastern', 'European'], 
     image: 'IMG_6150.png',
 
 },
@@ -89,10 +91,10 @@ var data = [
 // Cassia
 {
     spiceName: 'Cassia',
-    flavourProfile: 'Sweet and Woody',
+    flavourProfile: ['Sweet' , 'Woody'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
-    culturalRespresentation: 'Asian, particularly in Chinese cuisine', 
+    culturalRespresentation: ['Asian', 'Chinese'], 
     image: 'IMG_6154.png',
 
 },
@@ -100,7 +102,7 @@ var data = [
 // Cayenne Pepper
 {
     spiceName: 'Cayenne Pepper',
-    flavourProfile: 'Hot and Fiery',
+    flavourProfile: ['Hot' , 'Fiery'],
     timeofOrigin: 'Ancient times',
     subRegion: 'South America',
     culturalRespresentation: 'Global, particularly in American and Mexican cuisines',
@@ -110,7 +112,7 @@ var data = [
 // Cinnamon
 {
     spiceName: 'Cinnamon',
-    flavourProfile: 'Sweet and Warm',
+    flavourProfile: ['Sweet' , 'Warm'],
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: 'Global, particularly in South Asian, Middle Eastern, and European cuisines',
@@ -122,7 +124,7 @@ var data = [
 // Clove
 {
     spiceName: 'Clove',
-    flavourProfile: 'Warm and Aromatic',
+    flavourProfile: ['Warm' , 'Aromatic'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Molucca Islands',
     culturalRespresentation: 'Global, particularly in Asian, Middle Eastern, and European cuisines',
@@ -133,9 +135,9 @@ var data = [
 // Cacao
 {
     spiceName: 'Cacao',
-    flavourProfile: 'Bitter and Chocolatey',
+    flavourProfile: ['Bitter' , 'Chocolatey'],
     timeofOrigin: 'Ancient times',
-    subRegion: 'Central and South America',
+    subRegion: 'Central America',
     culturalRespresentation: 'Central and South American, European',
     image: 'IMG_6155.png',
 
@@ -144,7 +146,7 @@ var data = [
 // Cumin
 {
     spiceName: 'Cumin',
-    flavourProfile: 'Earthy and Nutty',
+    flavourProfile: ['Earthy' , 'Nutty'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Eastern Mediterranean',
     culturalRespresentation: 'Global, particularly in Middle Eastern, Indian, and Mexican cuisines',
@@ -155,7 +157,7 @@ var data = [
 // Dill
 {
     spiceName: 'Dill',
-    flavourProfile: 'Fresh and Anise-Like',
+    flavourProfile: ['Fresh' , 'Anise-Like'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'European, Middle Eastern, Scandinavian',
@@ -167,7 +169,7 @@ var data = [
 // Fennel
 {
     spiceName: 'Fennel',
-    flavourProfile: 'Sweet and Licorice-Like',
+    flavourProfile: ['Sweet' , 'Licorice-Like'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Indian',
@@ -177,7 +179,7 @@ var data = [
 // Fenugreek
 {
     spiceName: 'Fenugreek',
-    flavourProfile: 'Bitter and Nutty',
+    flavourProfile: ['Bitter' , 'Nutty'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Eastern Mediterranean',
     culturalRespresentation: 'Indian, Middle Eastern',
@@ -188,7 +190,7 @@ var data = [
 // Holy Basil
 {
     spiceName: 'Holy Basil',
-    flavourProfile: 'Spicy and Peppery',
+    flavourProfile: ['Spicy' , 'Peppery'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: 'Southeast Asian, Indian',
@@ -200,7 +202,7 @@ var data = [
 // Lavender
 {
     spiceName: 'Lavender',
-    flavourProfile: 'Floral and Herbaceous',
+    flavourProfile: ['Floral' , 'Herbaceous'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -211,7 +213,7 @@ var data = [
 // Lemon Grass
 {
     spiceName: 'Lemon Grass',
-    flavourProfile: 'Citrusy and Fresh',
+    flavourProfile: ['Citrusy' , 'Fresh'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Southeast Asia',
     culturalRespresentation: 'Southeast Asian, Indian',
@@ -223,7 +225,7 @@ var data = [
 // Marjoram
 {
     spiceName: 'Marjoram',
-    flavourProfile: 'Sweet and Woody',
+    flavourProfile: ['Sweet' , 'Woody'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -235,9 +237,9 @@ var data = [
 // Nutmeg
 {
     spiceName: 'Nutmeg',
-    flavourProfile: 'Warm and Nutty',
+    flavourProfile: ['Warm' , 'Nutty'],
     timeofOrigin: 'Ancient times',
-    subRegion: 'Molucca Islands',
+    subRegion: 'Central America',
     culturalRespresentation: 'Global, particularly in Asian, Middle Eastern, and European cuisines',
     image: 'Subject 123.png',
 
@@ -246,7 +248,7 @@ var data = [
 // Oregano
 {
     spiceName: 'Oregano',
-    flavourProfile: 'Robust and Earthy',
+    flavourProfile: ['Robust' , 'Earthy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Mexican',
@@ -257,7 +259,7 @@ var data = [
 // Paprika
 {
     spiceName: 'Paprika',
-    flavourProfile: 'Sweet and Smoky',
+    flavourProfile: ['Sweet' , 'Smoky'],
     timeofOrigin: '16th century',
     subRegion: 'Central America',
     culturalRespresentation: 'Hungarian, Spanish, European',
@@ -268,7 +270,7 @@ var data = [
 // Parsley
 {
     spiceName: 'Parsley',
-    flavourProfile: 'Fresh and Grassy',
+    flavourProfile: ['Fresh' , 'Grassy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -279,7 +281,7 @@ var data = [
 // Peppermint
 {
     spiceName: 'Peppermint',
-    flavourProfile: 'Cool and Minty',
+    flavourProfile: ['Cool' , 'Minty'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'Global, used in various culinary and medicinal applications',
@@ -290,7 +292,7 @@ var data = [
 // Poppy Seed
 {
     spiceName: 'Poppy Seed',
-    flavourProfile: 'Nutty and Mellow',
+    flavourProfile: ['Nutty' , 'Mellow'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Asian',
@@ -301,7 +303,7 @@ var data = [
 // Rosemary
 {
     spiceName: 'Rosemary',
-    flavourProfile: 'Woody and Pine-Like',
+    flavourProfile: ['Woody' , 'Pine-Like'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -312,7 +314,7 @@ var data = [
 // Saffron
 {
     spiceName: 'Saffron',
-    flavourProfile: 'Sweet and Earthy',
+    flavourProfile: ['Sweet' , 'Earthy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, Middle Eastern, Indian',
@@ -323,7 +325,7 @@ var data = [
 // Sage
 {
     spiceName: 'Sage',
-    flavourProfile: 'Earthy and Savory',
+    flavourProfile: ['Earthy' , 'Savory'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -334,7 +336,7 @@ var data = [
 // Sesame
 {
     spiceName: 'Sesame',
-    flavourProfile: 'Nutty and Rich',
+    flavourProfile: ['Nutty' , 'Rich'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Africa',
     culturalRespresentation: 'Asian, Middle Eastern, African',
@@ -345,7 +347,7 @@ var data = [
 // Szechuan Pepper
 {
     spiceName: 'Szechuan Pepper',
-    flavourProfile: 'Citrusy and Tingly',
+    flavourProfile: ['Citrusy' , 'Tingly'],
     timeofOrigin: 'Ancient times',
     subRegion: 'China',
     culturalRespresentation: 'Chinese, Asian',
@@ -356,7 +358,7 @@ var data = [
 // Star Anise
 {
     spiceName: 'Star Anise',
-    flavourProfile: 'Licorice-Like and Sweet',
+    flavourProfile: ['Licorice-Like' , 'Sweet'],
     timeofOrigin: 'Ancient times',
     subRegion: 'China',
     culturalRespresentation: 'Chinese, Vietnamese',
@@ -367,18 +369,18 @@ var data = [
 // Spearmint
 {
     spiceName: 'Spearmint',
-    flavourProfile: 'Sweet and Minty',
+    flavourProfile: ['Sweet' , 'Minty'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'Global, used in various culinary and medicinal applications',
-    image: 'IMG_7065.png',
+    image: 'IMG_7066.png',
     
 },
 
 // Tarragon
 {
     spiceName: 'Tarragon',
-    flavourProfile: 'Anise-Like and Peppery',
+    flavourProfile: ['Anise-Like' , 'Peppery'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Europe',
     culturalRespresentation: 'European, Russian', 
@@ -389,7 +391,7 @@ var data = [
 // Thyme
 {
     spiceName: 'Thyme',
-    flavourProfile: 'Earthy and Floral',
+    flavourProfile: ['Earthy' , 'Floral'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European',
@@ -400,7 +402,7 @@ var data = [
 // Turmeric
 {
     spiceName: 'Turmeric',
-    flavourProfile: 'Warm and Bitter',
+    flavourProfile: ['Warm' , 'Bitter'],
     timeofOrigin: 'Ancient times',
     subRegion: 'South Asia',
     culturalRespresentation: 'South Asian, Middle Eastern',
@@ -411,9 +413,9 @@ var data = [
 // Vanilla
 {
     spiceName: 'Vanilla',
-    flavourProfile: 'Sweet and Floral',
+    flavourProfile: ['Sweet' , 'Floral'],
     timeofOrigin: 'Ancient times',
-    subRegion: 'Mexico',
+    subRegion: 'central america',
     culturalRespresentation: 'Global, particularly in European and American desserts',
     image: 'IMG_7069.png',
 
@@ -422,7 +424,7 @@ var data = [
 // Wasabi
 {
     spiceName: 'Wasabi',
-    flavourProfile: 'Pungent and Spicy',
+    flavourProfile: ['Pungent' , 'Spicy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Japan',
     culturalRespresentation: 'Japanese, Asian',
@@ -433,7 +435,7 @@ var data = [
 // Yellow Mustard
 {
     spiceName: 'White Mustard',
-    flavourProfile: 'Mild and Tangy',
+    flavourProfile: ['Mild' , 'Tangy'],
     timeofOrigin: 'Ancient times',
     subRegion: 'Mediterranean',
     culturalRespresentation: 'Mediterranean, European, Indian',
