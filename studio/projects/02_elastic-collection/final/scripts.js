@@ -77,9 +77,7 @@ document.querySelectorAll('.time-filter').forEach(filterButton => {
 // Add event listener to reset button
 document.querySelector('.reset').addEventListener('click', resetFilters);
 
-// Run the insert function for every element in the collection array
-data.forEach((dataItem) => {
-    insertDataItem(dataItem);
+
 });
 
 

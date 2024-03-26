@@ -351,7 +351,7 @@ var data = [
     timeofOrigin: 'Ancient times',
     subRegion: 'China',
     culturalRespresentation: 'Chinese, Asian',
-    image: 'IMG_6152.png',
+    image: 'IMG_6152.PNG',
 
 },
 
