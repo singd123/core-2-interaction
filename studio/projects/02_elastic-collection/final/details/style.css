@@ -1,10 +1,12 @@
 body
  { 
-    background-color: #303030;
+    background-color: whitesmoke;
+    background-image: url(../assests/360_F_124313739_k7DmMQARYcIMQMvj26shzJQYA2VZOAcy.jpg);
+    
  }
 .dropbtn {
-    background-color: #000000;
-    color: white;
+  background-color: #684e19;
+  color: whitesmoke;
     padding: 16px;
     font-size: 50px;
     border: none;
@@ -15,6 +17,10 @@ body
     left: -37%;
     top: 45%;
     text-decoration: none;
+    font-family: tiller, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0 0 3px #312301;
   }
 a {
     text-decoration: none;
@@ -29,15 +35,19 @@ a {
 
   figcaption{
     text-align: center;
-    font-size: 25px;
-    color: white;
+    font-size: 30px;
+    color: #463313;
+    font-family: tiller, sans-serif;
+    font-weight: 550;
+    
   }
 
   #bio { 
-    font-size: 12px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    color: white;
+    color: #926c0d;
+    font-weight: 400;
   }
 
   .grid { 
@@ -48,17 +58,24 @@ a {
   }
 
   h2 { 
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-family: tiller, sans-serif;
+    font-weight: 500;
     font-style: italic;
     text-decoration: wavy;
-    color: white;
+    color: #463313;
   }
 
   p { 
-    color: white;
+    color: #82600b;
   }
 
   main { 
     margin-left: 10%;
+  }
+
+  .writeup { 
+    padding: 5%;
+    background-color: rgba(235, 235, 235, 0.7);
+    border-radius: 5%;
   }

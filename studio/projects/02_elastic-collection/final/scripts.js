@@ -7,7 +7,7 @@ function insertDataItem(dataItem) {
 	// Update this to your match your collection's metadata.
 	containerElement.innerHTML += `
 		<div class="spices" style="background: ${ dataItem['color'] }">
-		<img src="assests/${ dataItem['image'] }"/>
+        <a href="details/${dataItem['link']}"><img src="assests/${ dataItem['image'] }" }"/></a>
 		<br>
 			<p class="name" > ${ dataItem['spiceName'] }</p>
 		</div>
@@ -19,13 +19,8 @@ function insertDataItem(dataItem) {
 
 
 			
-
+            // style=" width: ${ dataItem ['size'] 
 				
-
-// Run the insert function for every element in the collection array
-data.forEach((dataItem) => {
-	insertDataItem(dataItem)
-});
 
 			
 
@@ -39,6 +34,23 @@ function filterByFlavour(flavour) {
     // Insert filtered data into the container
     filteredData.forEach(insertDataItem);
 }
+
+// // Function to filter data based on flavour
+// function filterBySize(size) {
+//     // Filter the data array based on the selected flavour profile
+//     const filteredData = data.filter(item => item.size.includes(size));
+//     // Clear previous content in the container
+//     containerElement.innerHTML += `
+//     <div class="spices" style="background: ${ dataItem['color'] }">
+//     <img src="assests/${ dataItem['image'] }" style=" width: ${ dataItem ['size'] }"/>
+//     <br>
+//         <p class="name" > ${ dataItem['spiceName'] }</p>
+//     </div>
+// `;
+//     // Insert filtered data into the container
+//     filteredData.forEach(insertDataItem);
+// }
+
 
 // Function to filter data based on time of origin
 function filterByTime(time) {
@@ -66,6 +78,13 @@ document.querySelectorAll('.filter').forEach(filterButton => {
     });
 });
 
+// document.querySelectorAll('.filter-size').forEach(filterButton => {
+//     filterButton.addEventListener('click', () => {
+//         const selectedSize = filterButton.getAttribute('data-size');
+//         filterBySize(selectedSize);
+//     });
+// });
+
 // Add event listeners to time filter buttons
 document.querySelectorAll('.time-filter').forEach(filterButton => {
     filterButton.addEventListener('click', () => {
@@ -77,7 +96,9 @@ document.querySelectorAll('.time-filter').forEach(filterButton => {
 // Add event listener to reset button
 document.querySelector('.reset').addEventListener('click', resetFilters);
 
-
+// Run the insert function for every element in the collection array
+data.forEach((dataItem) => {
+    insertDataItem(dataItem);
 });
 
 
@@ -88,6 +109,7 @@ function filterBySubRegion(subRegion) {
 
     // Clear previous content in the container
     containerElement.innerHTML = '';
+
 
     // Insert filtered data into the container
     filteredData.forEach(insertDataItem);
@@ -100,6 +122,49 @@ document.querySelectorAll('.subregion-filter').forEach(filterButton => {
         filterBySubRegion(selectedSubRegion);
     });
 });
+
+
+
+// Function to filter data based on size
+function filterBySize(size) {
+    // Clear previous content in the container
+    containerElement.innerHTML = '';
+
+    // Insert filtered data into the container
+    data.forEach(dataItem => {
+       
+            containerElement.innerHTML += `
+                <div class="spices" style="background: ${dataItem['color']}">
+                  <img src="assests/${dataItem['image']}" style="width: ${dataItem['size']};"/>
+                    <br>
+                    <p class="name">${dataItem['spiceName']}</p>
+                </div>
+            `;
+        
+    });
+}
+ 
+
+// Function to reset images to normal size
+function resetSize() {
+    // Clear previous content in the container
+    containerElement.innerHTML = '';
+
+
+    // Insert all data into the container
+    data.forEach(insertDataItem);
+}
+
+// Add event listeners to size filter buttons
+document.querySelectorAll('.filter-size').forEach(filterButton => {
+    filterButton.addEventListener('click', () => {
+        const selectedSize = filterButton.getAttribute('data-size');
+        filterBySize(selectedSize);
+    });
+});
+
+// Add event listener to reset button
+document.querySelector('.reset-size').addEventListener('click', resetSize);
 
 
 
@@ -147,3 +212,37 @@ document.querySelectorAll('.subregion-filter').forEach(filterButton => {
 // 	 insertCostumes(dataItemWithFlavour);
 //      });
 // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Function to filter data based on size
+// function filterBySize(size) {
+//     // Filter the data array based on the selected size
+//     const filteredData = data.filter(item => item.size === size);
+
+//     // Clear previous content in the container
+//     containerElement.innerHTML = '';
+
+//     containerElement.innerHTML += `
+//     <div class="spices" style="background: ${ dataItem['color'] }">
+//      <img src="assests/${ dataItem['image'] }" style=" width: ${ dataItem ['size'] }"/>
+//   <br>
+//          <p class="name" > ${ dataItem['spiceName'] }</p>
+//       </div>
+//   `;
+
+
+//     // Insert filtered data into the container
+//     filteredData.forEach(insertDataItem);
+// }

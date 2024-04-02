@@ -2,6 +2,7 @@ body {
 	background: white;
 	background-image: url(assests/360_F_124313739_k7DmMQARYcIMQMvj26shzJQYA2VZOAcy.jpg);
 	margin: 0;
+	
 	}
 	
 .Container {
@@ -9,16 +10,20 @@ body {
 	grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr) );
     padding: 80px;
     column-gap: 70px;
-	row-gap: 100px;
+	row-gap: 70px;
 	margin-left: 12%;
 margin-right: 2.5%;
 text-align: center;
+align-content: center;
+align-self: center;
+
 }
 
 img { 
    display: block;
    width: 90%;
-    
+ align-content: center;
+ align-self: center;
 }
 
 .spices { 
@@ -37,12 +42,12 @@ font-style: normal;
 text-align: center;
 font-size: 15pt;
 color:rgb(146, 108, 13);
-display: none;
+opacity:0%;
 text-align: center;
 }
 
 .spices:hover .name {
-	display: contents;
+	opacity: 100%;
 }
 /* menu ------
 --------------------------------
@@ -50,13 +55,13 @@ text-align: center;
 --------------*/
 
 .dropbtn {
-    background-color: #000000;
-    color: white;
+    background-color: #684e19;
+    color: whitesmoke;
     padding: 16px;
     font-size: 20pt;
     border: none;
-    width: 15%;
-    height: 150%;
+    width: 71.5%;
+    height: 10%;
     transform: rotate(0);
     position: relative;
     left: 0%;
@@ -65,7 +70,7 @@ text-align: center;
     font-family: tiller, sans-serif;
     font-weight: 700;
     font-style: normal;
-    text-shadow: 0 0 3px #b8860b;
+    text-shadow: 0 0 3px #312301;
   }
 
 .dropdown-2 {
@@ -75,9 +80,9 @@ text-align: center;
     background: none;
     font-size: 22px;
     font-family: tiller, sans-serif;
-font-weight: 500;
-font-style: italic;
-text-align: left;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
 }
 
   .drop2 {
@@ -88,8 +93,6 @@ text-align: left;
   .dropdown {
     position: relative;
     display: inline-block;
-    width: 80%;
-    height: 10%;
     position: fixed;
     
     
@@ -98,12 +101,11 @@ text-align: left;
   .dropdown-content  {
     display: block;
     position: absolute;
-    background-color: #313131;
-    min-width: 160px;
+    background-color: #463313;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    width: 15%;
-    height: 750px;
+    width: 71.5%;
+    height: 760px;
     position: relative;
     left: 0%;
     overflow-x: hidden;
@@ -112,7 +114,7 @@ text-align: left;
   }
   
   .dropdown-content  a {
-    color: rgb(255, 255, 255);
+    color: antiquewhite;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -121,14 +123,14 @@ text-align: left;
 
   a {
     text-decoration: none;
-    color: rgb(251, 251, 251);
+    color: whitesmoke;
     
   }
   
   .content {
     display: block;
     position: absolute;
-    background-color: #313131;
+    background-color: #463313;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -139,11 +141,15 @@ text-align: left;
    
   }
 
+  .content2 { 
+	height: 350px;
+  }
+
   .content a {
     color: darkgoldenrod;
   }
   .filter {
-    color:rgb(146, 108, 13);
+    color:#926c0d;
     text-decoration: none;
   }
 .menu {
@@ -156,7 +162,7 @@ text-align: left;
 }
 
 .reset {
-	top: -10%;
+	top: 0%;
 	position: relative;
 	z-index: 10;
 }
@@ -171,4 +177,26 @@ text-align: left;
 }
   .drop2:hover .content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #232323;}
+/* size --------------
+-----------------
+---------------------- */
+.size { 
+	left: 93%;
+	top: 76.5%;
+	position: fixed;
+	z-index: 20;
+	transform: scale(70%);
+}
+
+.bordersize {
+	border: #545454;
+	border-width: 2px;
+	border-color: #684e19;
+	border-style: solid;
+	padding: 6px;
+	align-items: center;
+	align-content: center;
+	background-color: rgba(237, 237, 237, 0.5);
+
+	
+}
