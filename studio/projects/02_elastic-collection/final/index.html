@@ -11,9 +11,9 @@
 </head>
 <body>
 	<div class="dropdown">
-        <button class="dropbtn " id="dropdownBtn"><a href="#">Spice Spectrum</a></button>
+        <button class="dropbtn reset" id="dropdownBtn"><a href="#">Spice Spectrum</a></button>
         
-        <div class="dropdown-content " id="dropdownContent">
+        <div class="dropdown-content  show" id="dropdownContent">
             <br>
             <br>
             
@@ -32,7 +32,15 @@
              <br>
 			 <br>
 			 <br>
-
+			 <div class="drop2"> <button class="dropdown-2"><a href="#">Region of Origin</a></button> 
+				<div class="content">
+					<a class="subregion-filter filter" data-subregion="Mediterranean" href="#">Mediterranean</a>
+					<a class="subregion-filter filter" data-subregion="South Asia" href="#">South asia</a>
+					<a class="subregion-filter filter" data-subregion="Europe" href="#">Europe</a>
+					<a class="subregion-filter filter" data-subregion="Central America" href="#">Central America</a>
+				</div>  
+			</div>           
+				<br>
             
             <div class="drop2"> <button class="dropdown-2"><a href="#">Time of Origin</a></button>  
             <div class="content">
@@ -45,15 +53,7 @@
             <br>
            
 
-            <div class="drop2"> <button class="dropdown-2"><a href="#">Region of Origin</a></button> 
-            <div class="content">
-                <a class="subregion-filter filter" data-subregion="Mediterranean" href="#">Mediterranean</a>
-                <a class="subregion-filter filter" data-subregion="South Asia" href="#">South asia</a>
-                <a class="subregion-filter filter" data-subregion="Europe" href="#">Europe</a>
-                <a class="subregion-filter filter" data-subregion="Central America" href="#">Central America</a>
-            </div>  
-        </div>           
-            <br>
+         
           
          
 		
@@ -87,6 +87,13 @@
 
             dropdownBtn.addEventListener('click', function() {
                 dropdownContent.classList.toggle('show');
+            });
+
+            // Close the dropdown when clicking outside of it
+            document.addEventListener('click', function(event) {
+                if (!dropdownContent.contains(event.target) && event.target !== dropdownBtn) {
+                    dropdownContent.classList.remove('show');
+                }
             });
         });
     </script>
