@@ -1,3 +1,6 @@
+
+
+
 body {
 	background: white;
 	background-image: url(assests/360_F_124313739_k7DmMQARYcIMQMvj26shzJQYA2VZOAcy.jpg);
@@ -199,4 +202,72 @@ text-align: center;
 	background-color: rgba(237, 237, 237, 0.5);
 
 	
+}
+
+/* media queries */
+
+
+
+/* Media query for devices with a maximum width of 768px (typical tablet and mobile devices) */
+@media screen and (max-width: 768px) {
+    /* Move the sidebar to the top */
+    .dropdown {
+        position: relative;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+	.dropbtn {
+width: 100%;
+	}
+
+    /* Hide the dropdown content by default */
+    .dropdown-content {
+        display: none;
+        position: relative;
+		left: 0%;
+        background-color: #463313;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 30%; /* Full width */
+        z-index: 1;
+		text-align: left;
+
+    }
+
+    /* Show dropdown content when hovering over the dropdown */
+    .dropdown:clic .dropdown-content {
+        display: block;
+    }
+
+    /* Adjust spacing and size of dropdown items */
+    .dropdown-content a {
+        padding: 10px 0;
+    }
+
+    /* Adjust size and spacing of the reset button */
+    .reset {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust position and size of the size filter buttons */
+    .size {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .bordersize {
+        padding: 10px;
+    }
+
+    /* Adjust container padding */
+    .Container {
+		top: -900px;
+		position: relative;
+        padding: 20px;
+    }
 }
