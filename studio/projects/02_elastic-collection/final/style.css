@@ -234,11 +234,11 @@ width: 100%;
 		text-align: left;
 
     }
-
+	.dropdown-content {
+		display: none;
+	}
     /* Show dropdown content when hovering over the dropdown */
-    .dropdown:clic .dropdown-content {
-        display: block;
-    }
+    
 
     /* Adjust spacing and size of dropdown items */
     .dropdown-content a {
@@ -258,15 +258,23 @@ width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         text-align: center;
+		display: none;
     }
 
     .bordersize {
         padding: 10px;
     }
 
+	.show {
+		display: block;
+	}
+.name {
+	opacity: 100%;
+}
+
     /* Adjust container padding */
     .Container {
-		top: -900px;
+		top: 20%;
 		position: relative;
         padding: 20px;
     }

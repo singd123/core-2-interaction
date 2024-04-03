@@ -11,9 +11,9 @@
 </head>
 <body>
 	<div class="dropdown">
-        <button class="dropbtn"><a href="#">Spice Spectrum</a></button>
+        <button class="dropbtn " id="dropdownBtn"><a href="#">Spice Spectrum</a></button>
         
-        <div class="dropdown-content">
+        <div class="dropdown-content " id="dropdownContent">
             <br>
             <br>
             
@@ -78,5 +78,17 @@
 	  
 	<script src="data.js"></script>
 	<script src="scripts.js"></script>
+
+	<script>
+        // JavaScript to toggle dropdown content visibility
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdownBtn = document.getElementById('dropdownBtn');
+            var dropdownContent = document.getElementById('dropdownContent');
+
+            dropdownBtn.addEventListener('click', function() {
+                dropdownContent.classList.toggle('show');
+            });
+        });
+    </script>
 </body>
 </html>
