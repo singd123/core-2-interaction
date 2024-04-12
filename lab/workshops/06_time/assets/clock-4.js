@@ -21,4 +21,5 @@ setInterval(() => {
 
     millisecondsElement.innerHTML = milliseconds; 
 
-}, 10);
+}, 1
+);
