@@ -124,8 +124,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
 <p> 
     <!-- 13 February 2024 - 11 August 2024 
     <br>
@@ -139,19 +137,9 @@ New York, NY 10021 <br>
 <br>
 <br> -->
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
 COAL + ICE brings together the work of more than 37 photographers and artists from China and around the world, and traces a photographic arc from deep within coal mines to the melting glaciers of the greater Himalaya, and across the globe where rising sea levels and extreme weather events are wreaking havoc. The imagery in COAL + ICE is drawn from diverse materials, from glass plate negatives to smartphone videos, spanning more than a century. Through intimate portraits and vast altered landscapes, these photographs document the consequences triggered by our continued reliance on fossil fuels. The exhibition brings to life the environmental and human costs of climate change, while also highlighting the innovative solutions that provide hope for a more sustainable future.
 <br> <br>COAL + ICE is co-curated by Magnum photographer Susan Meiselas and international exhibition designer Jeroen de Vries, and led by Orville Schell, Asia Society Vice President and Arthur Ross Director of the Center on U.S.-China Relations.
 <br>
@@ -171,6 +159,12 @@ COAL + ICE brings together the work of more than 37 photographers and artists fr
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 </p>
 <br>
@@ -179,5 +173,34 @@ COAL + ICE brings together the work of more than 37 photographers and artists fr
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </body>
+<script>
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('h1');
+        if (window.scrollY > 90) {
+            var opacity = 1 - ((window.scrollY - 90) / 90);
+            header.style.opacity = opacity;
+        } else {
+            header.style.opacity = 1;
+        }
+    });
+
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('p');
+        if (window.scrollY > 650) {
+            var opacity = 1 - ((window.scrollY - 650) / 650);
+            header.style.opacity = opacity;
+        } else {
+            header.style.opacity = 1;
+        }
+    });
+    </script>
+    
+    
 </html>

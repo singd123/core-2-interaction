@@ -73,7 +73,7 @@ svg {
     z-index: 1;
 }
 div { 
-position: fixed;
+position: relative;
 }
 
 
@@ -100,6 +100,6 @@ color: azure;
 position: relative;
 top: 20%;
 font-size: 20pt;
-z-index: -1;
+z-index: -2;
 }
 
