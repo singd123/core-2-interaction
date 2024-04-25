@@ -44,8 +44,8 @@ fetch(URL)
 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('h1');
-    if (window.scrollY > 90) {
-        var opacity = 1 - ((window.scrollY - 90) / 90);
+    if (window.scrollY > 120) {
+        var opacity = 1 - ((window.scrollY - 120) / 120);
         header.style.opacity = opacity;
     } else {
         header.style.opacity = 1;
@@ -56,6 +56,36 @@ window.addEventListener('scroll', function() {
     var header = document.querySelector('p');
     if (window.scrollY > 650) {
         var opacity = 1 - ((window.scrollY - 650) / 650);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.Open');
+    if (window.scrollY > 1100) {
+        var opacity = 1 - ((window.scrollY - 1100) / 1100);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#demo');
+    if (window.scrollY > 1180) {
+        var opacity = 1 - ((window.scrollY - 1180) / 1180);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('video');
+    if (window.scrollY > 1800) {
+        var opacity = 1 - ((window.scrollY - 1800) / 1800);
         header.style.opacity = opacity;
     } else {
         header.style.opacity = 1;
@@ -81,8 +111,8 @@ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 // Output the result in an element with id="demo"
-document.getElementById("demo").innerHTML = days + " <span> days   </span> " + hours + " <span> hrs   </span>   "
-+ minutes + " <span> mins   </span>  " + seconds + "<span>  secs    </span> ";
+document.getElementById("demo").innerHTML = days + " <span> days &nbsp  </span> " + hours + " <span> hrs &nbsp   </span>   "
++ minutes + " <span> mins &nbsp   </span>  " + seconds + "<span>  secs  &nbsp  </span> ";
 
 // If the count down is over, write some text 
 if (distance < 0) {
