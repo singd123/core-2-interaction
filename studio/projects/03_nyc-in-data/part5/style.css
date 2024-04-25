@@ -99,7 +99,71 @@ text-align: left;
 color: azure;
 position: relative;
 top: 20%;
-font-size: 20pt;
-z-index: -2;
+font-size: 18pt;
+z-index: 1;
+font-family: 'Courier New', Courier, monospace;
 }
 
+#demo { 
+    text-align: center;
+    font-family: "loos-extrawide", sans-serif;
+font-weight: 400;
+}
+
+.Open { 
+    text-align: center;
+
+font-style: normal;
+color: aliceblue;
+font-size: 12pt;
+}
+
+h3 { 
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.info { 
+    position: relative;
+    top: -268%;
+    left: 97%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    
+
+}
+
+#info { 
+    position: relative;
+top: 3px;
+}
+
+.detail {
+background-color: rgba(0, 0, 0, 0.801);
+width: 500px;
+height: auto;
+text-align: center;
+border-radius: 10px;
+position: relative;
+top: 250px;
+left: -1000px;
+padding: 50px;
+opacity:0% ;
+z-index: 30000;
+
+}
+
+ #info:hover.detail {
+opacity: 100%;
+}
