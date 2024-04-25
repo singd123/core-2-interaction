@@ -47,6 +47,7 @@ svg {
     left: 76%;
     top: 400px;
     width: 24% ;
+    z-index: 20000;
 }
 
 #M6 { 
@@ -128,7 +129,7 @@ h3 {
 
 .info { 
     position: relative;
-    top: -268%;
+    top: -305%;
     left: 97%;
     text-align: center;
     color: aliceblue;
@@ -176,3 +177,12 @@ opacity: 100%;
 }
 
 
+video {
+    width: 40%;
+    position: relative;
+    left: 30%;
+    box-shadow: 6px;
+    box-shadow: black;
+    z-index: -200000000;
+    
+}
