@@ -21,7 +21,7 @@ fetch(URL)
 
         let finalResultPercentage = finalResult.toFixed(2) + "%";
     
-        document.getElementById("data").innerHTML += `<stop id="data" offset="${finalResultPercentage}%" stop-color="white" />`;
+        document.getElementsByClassName("data").innerHTML += `<stop class="data" offset="${finalResultPercentage}%" stop-color="white" />`;
     }
     
 
@@ -90,3 +90,5 @@ clearInterval(x);
 document.getElementById("demo").innerHTML = "EXPIRED";
 }
 }, 1000);
+
+

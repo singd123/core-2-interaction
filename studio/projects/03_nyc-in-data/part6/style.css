@@ -144,26 +144,35 @@ h3 {
 
 }
 
+a{ 
+    text-decoration: none;
+}
+
 #info { 
     position: relative;
 top: 3px;
 }
 
-.detail {
-background-color: rgba(0, 0, 0, 0.801);
-width: 500px;
-height: auto;
-text-align: center;
-border-radius: 10px;
-position: relative;
-top: 250px;
-left: -1000px;
-padding: 50px;
-opacity:0% ;
-z-index: 30000;
+#detail {
 
+
+text-align: left;
+
+position: relative;
+top: 80px;
+
+
+}
+
+#hey { 
+    position: relative;
+    left: -23%;
+    top: -30%;
+    font-size: 12pt;
 }
 
  #info:hover.detail {
 opacity: 100%;
 }
+
+
