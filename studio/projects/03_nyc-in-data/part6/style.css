@@ -1,0 +1,169 @@
+
+
+body {
+    background-color: rgb(63, 63, 63);
+    position: relative;
+}
+svg { 
+    filter: url(#shadow);
+   
+    
+}
+#M1 { 
+    position: fixed;
+    left: 0%;
+    top: 400px;
+    width: 24% ;
+
+
+}
+
+#M2 { 
+    position: fixed;
+    left: 12%;
+    top: 465px;
+    width: 30% ;
+    z-index: 1000;
+
+}
+
+#M3 { 
+    position: fixed;
+    left: 37%;
+    top: 445px;
+    width: 30% ;
+    z-index: 20000;
+}
+
+#M4 { 
+    position: fixed;
+    left: 55%;
+    top: 507px;
+    width: 26% ;
+}
+
+#M5 { 
+    position: fixed;
+    left: 76%;
+    top: 400px;
+    width: 24% ;
+}
+
+#M6 { 
+    position: fixed;
+    left: 70%;
+    top: 470px;
+    width: 24% ;
+    z-index: -1;
+}
+
+#M7 { 
+    position: fixed;
+    left: 28%;
+    top: 520px;
+    width: 20% ;
+    z-index: -1;
+}
+
+#M8 { 
+    position: fixed;
+    left: 3%;
+    top: 570px;
+    width: 16% ;
+    z-index: 1;
+}
+div { 
+position: relative;
+}
+
+
+
+h1 { 
+position: relative;
+top: 5%;
+text-align: center;
+font-family: "loos-extended", sans-serif;
+font-weight: 700;
+font-style: normal;font-size: 90pt;
+color: white;
+}
+
+span { 
+color: black;
+}
+
+p { 
+margin-left: 25%;
+margin-right: 25%;
+text-align: left;
+color: azure;
+position: relative;
+top: 20%;
+font-size: 18pt;
+z-index: 1;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#demo { 
+    text-align: center;
+    font-family: "loos-extrawide", sans-serif;
+font-weight: 400;
+}
+
+.Open { 
+    text-align: center;
+
+font-style: normal;
+color: aliceblue;
+font-size: 12pt;
+}
+
+h3 { 
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.info { 
+    position: relative;
+    top: -268%;
+    left: 97%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    
+
+}
+
+#info { 
+    position: relative;
+top: 3px;
+}
+
+.detail {
+background-color: rgba(0, 0, 0, 0.801);
+width: 500px;
+height: auto;
+text-align: center;
+border-radius: 10px;
+position: relative;
+top: 250px;
+left: -1000px;
+padding: 50px;
+opacity:0% ;
+z-index: 30000;
+
+}
+
+ #info:hover.detail {
+opacity: 100%;
+}
