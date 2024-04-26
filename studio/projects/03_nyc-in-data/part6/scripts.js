@@ -7,7 +7,6 @@ fetch(URL)
 		return response.json();
 	})
 	.then((data) => {
-		console.log(data);
 		render(data);
 	})
 
@@ -18,10 +17,13 @@ fetch(URL)
         let coValue = data.hourly.carbon_monoxide[hour];
         let adjustedValue = (coValue - 129) * 0.568;
         let finalResult = 100 - adjustedValue;
+        let finalResultPercentage = finalResult + "%";
 
-        let finalResultPercentage = finalResult.toFixed(2) + "%";
+        document.querySelectorAll('.data').forEach((element) => {
+            element.setAttribute('offset', finalResultPercentage);
+        });
     
-        document.getElementsByClassName("data").innerHTML += `<stop class="data" offset="${finalResultPercentage}%" stop-color="white" />`;
+        // document.getElementsByClassName("data").innerHTML += `<stop class="data" offset="${finalResultPercentage}%" stop-color="white" />`;
     }
     
 
