@@ -1,0 +1,229 @@
+
+
+body {
+    background-color: rgb(100, 99, 99);
+    position: relative;
+    overflow-x: hidden;
+}
+svg { 
+    filter: url(#shadow);
+   
+    
+}
+#M1 { 
+    position: fixed;
+    left: 0%;
+    top: 400px;
+    width: 24% ;
+
+
+}
+
+#M2 { 
+    position: fixed;
+    left: 12%;
+    top: 465px;
+    width: 30% ;
+    z-index: 1000;
+
+}
+
+#M3 { 
+    position: fixed;
+    left: 37%;
+    top: 445px;
+    width: 30% ;
+    z-index: 20000;
+}
+
+#M4 { 
+    position: fixed;
+    left: 55%;
+    top: 507px;
+    width: 26% ;
+}
+
+#M5 { 
+    position: fixed;
+    left: 76%;
+    top: 400px;
+    width: 24% ;
+    z-index: 20000;
+}
+
+#M6 { 
+    position: fixed;
+    left: 70%;
+    top: 470px;
+    width: 24% ;
+    z-index: -1;
+}
+
+#M7 { 
+    position: fixed;
+    left: 28%;
+    top: 520px;
+    width: 20% ;
+    z-index: -1;
+}
+
+#M8 { 
+    position: fixed;
+    left: 3%;
+    top: 570px;
+    width: 16% ;
+    z-index: 1;
+}
+div { 
+position: relative;
+}
+
+
+
+h1 { 
+position: relative;
+top: 5%;
+text-align: center;
+font-family: "loos-extended", sans-serif;
+font-weight: 700;
+font-style: normal;font-size: 90pt;
+color: white;
+}
+
+span { 
+color: black;
+}
+
+p { 
+margin-left: 25%;
+margin-right: 25%;
+text-align: left;
+color: azure;
+position: relative;
+top: 20%;
+font-size: 18pt;
+z-index: 1;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#demo { 
+    text-align: center;
+    font-family: "loos-extrawide", sans-serif;
+font-weight: 400;
+}
+
+.Open { 
+    text-align: center;
+
+font-style: normal;
+color: aliceblue;
+font-size: 12pt;
+}
+
+h3 { 
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.info { 
+    position: relative;
+    top: -891%;
+    left: 97%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    
+
+}
+
+a{ 
+    text-decoration: none;
+}
+
+#info { 
+    position: relative;
+top: 3px;
+}
+
+#detail {
+
+
+text-align: left;
+position: relative;
+top: 50px;
+
+
+
+}
+
+#hey { 
+    position: relative;
+    left: 1060px;
+    top: -36%;
+    font-size: 12pt;
+}
+
+ #info:hover.detail {
+opacity: 100%;
+}
+
+
+video {
+    width: 40%;
+    position: relative;
+    left: 30%;
+    box-shadow: 6px;
+    box-shadow: black;
+    z-index: -200000000;
+    
+}
+
+img { 
+    width: 500px;
+    position: relative;
+    left: 33%;
+}
+
+#img1 { 
+    position: relative;
+    left: 15%;
+}
+
+#img2 { 
+    position: relative;
+    left: 55%;
+}
+
+#img3 { 
+    position: relative;
+    left: 35%;
+}
+
+#img4 { 
+    position: relative;
+    left: 10%;
+}
+
+#img6 { 
+    position: relative;
+    left: 65%;
+}
+#img7 { 
+    position: relative;
+    left: 25%;
+}
+
+#img8 { 
+    position: relative;
+    left: 55%;
+}

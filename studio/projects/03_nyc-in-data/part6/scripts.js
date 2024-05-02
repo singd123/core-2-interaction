@@ -21,10 +21,19 @@ fetch(URL)
 
         document.querySelectorAll('.data').forEach((element) => {
             element.setAttribute('offset', finalResultPercentage);
+            
         });
-    
-        // document.getElementsByClassName("data").innerHTML += `<stop class="data" offset="${finalResultPercentage}%" stop-color="white" />`;
+
+        document.getElementById.innerHTML = `
+		<p id="detail" > This microsite Hosts live Air Quality Data in a base camp of the himalaya's, these include Carbon Monoxide, Sulfur dioxide, Nitrogen dioxide, all are gases produced due to coal mining. This affects the amount of blue on the snow cover mountains, showcasing the rise in green house gases that cause the tempretures to rise in the ozone. Thereby affecting countless glaciers by casuing more and more snow to melt due to high tempretures. 
+        <br>
+        CO1: ${ coValue} μg/m^3</p> `
     }
+       
+
+      
+    
+
     
 
 

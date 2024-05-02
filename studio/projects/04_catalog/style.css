@@ -1,0 +1,106 @@
+.head { 
+    font-family: "mestiza", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70pt;
+    text-align: center;
+    color: goldenrod;
+}
+
+.Studio {
+    font-family: "mestiza", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 35pt;
+color:rgb(7, 48, 7);
+
+}
+
+a { 
+    text-decoration: none;
+    color:darkgreen;
+}
+
+#project1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(7, 48, 7) ;
+    position: relative;
+    left: 20%;
+    top: 100px;
+}
+
+#project2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(7, 48, 7) ;
+    position: relative;
+    left: 40%;
+}
+
+#project3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(7, 48, 7) ;
+    position: relative;
+    left: 70%;
+}
+
+#work1 { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 30%;
+}
+
+#work2 { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 50%;
+}
+
+#work3 { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 60%;
+}
+
+#work { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 10%;
+    top: 150px;
+}
+
+#work4 { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 80%;
+}
+
+#work5 { 
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:goldenrod ;
+    position: relative;
+    left: 90%;
+}
