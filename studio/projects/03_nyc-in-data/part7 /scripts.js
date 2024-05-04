@@ -72,8 +72,8 @@ window.addEventListener('scroll', function() {
 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.Open');
-    if (window.scrollY > 7000) {
-        var opacity = 1 - ((window.scrollY - 7000) / 7000);
+    if (window.scrollY > 1000) {
+        var opacity = 1 - ((window.scrollY - 1000) / 1000);
         header.style.opacity = opacity;
     } else {
         header.style.opacity = 1;
@@ -82,8 +82,8 @@ window.addEventListener('scroll', function() {
 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('#demo');
-    if (window.scrollY > 7000) {
-        var opacity = 1 - ((window.scrollY - 7000) / 7000);
+    if (window.scrollY > 1100) {
+        var opacity = 1 - ((window.scrollY - 1100) / 1100);
         header.style.opacity = opacity;
     } else {
         header.style.opacity = 1;
@@ -91,15 +91,84 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-    var header = document.querySelector('video');
-    if (window.scrollY > 70000) {
-        var opacity = 1 - ((window.scrollY - 7000) / 7000);
+    var header = document.querySelector('#img1');
+    if (window.scrollY > 1600) {
+        var opacity = 1 - ((window.scrollY - 1600) / 1600);
         header.style.opacity = opacity;
     } else {
         header.style.opacity = 1;
     }
 });
 
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img2');
+    if (window.scrollY > 2150) {
+        var opacity = 1 - ((window.scrollY - 2150) / 2150);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img3');
+    if (window.scrollY > 2650) {
+        var opacity = 1 - ((window.scrollY - 2650) / 2650);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img4');
+    if (window.scrollY > 2900) {
+        var opacity = 1 - ((window.scrollY - 2900) / 2900);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img5');
+    if (window.scrollY > 3400) {
+        var opacity = 1 - ((window.scrollY - 3400) / 3400);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img6');
+    if (window.scrollY > 4000) {
+        var opacity = 1 - ((window.scrollY - 4000) / 4000);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img7');
+    if (window.scrollY > 4600) {
+        var opacity = 1 - ((window.scrollY - 4600) / 4600);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('#img8');
+    if (window.scrollY > 5000) {
+        var opacity = 1 - ((window.scrollY - 5000) / 5000);
+        header.style.opacity = opacity;
+    } else {
+        header.style.opacity = 1;
+    }
+});
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 11, 2024 18:30:00").getTime();
 
