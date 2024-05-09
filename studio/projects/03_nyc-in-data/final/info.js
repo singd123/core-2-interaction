@@ -14,7 +14,7 @@ fetch(URL)
         var dateObject = new Date();
         var hour = dateObject.getHours();
     
-        let coValue = data.hourly.carbon_monoxide[hour];
+        let coValue = data.hourly.carbon_monoxide[12];
         let adjustedValue = (coValue - 129) * 0.568;
         let finalResult = 100 - adjustedValue;
         let finalResultPercentage = finalResult + "%";
