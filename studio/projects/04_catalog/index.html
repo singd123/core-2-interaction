@@ -53,9 +53,9 @@
             <a href="#journal"><div id="project4"><br><br><br>Jouranl Index</div></a>
             <a href="#event"><div id="work6"><br><br>Event-Listeners</div></a>
             <a href="#object"><div id="project5"><br><br><br>Collection Object</div></a>
-            <a href="#time"><div id="work7"><br><br>Time</div></a>
+            <a href="#time"><div id="work7"><br><br>Time workshop</div></a>
             <a href="#dom"><div id="project6"><br><br><br>Collection Dom</div></a>
-            <a href="#api"><div id="workC"><br><br>Api Climate</div></a>
+            <a href="#api"><div id="workC"><br><br>Api Climate workshop</div></a>
             <a href="#overtime"><div id="project7"><br><br><br>Text Over Time</div></a>
             </div>
 
@@ -144,7 +144,78 @@
 
             <br><br>
             
-            <a class="frametext" href="../01_stories-as-networks/index.html">Coal + Ice Exbhition Mircosite</a>
+            <a class="frametext" href="../03_nyc-in-data/final/index.html">Coal + Ice Exbhition Mircosite</a>
+
+            <br><br><br><br>
+            <div class="w3-content w3-display-container" style="max-width:80%">
+                <img class="mySlides" src="2screen.png" style="width:100%">
+                <img class="mySlides" src="1screen.png" style="width:100%">
+                <img class="mySlides" src="3screen.png" style="width:100%">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+                <a href="../03_nyc-in-data/final/index.html" id="center"> Api Interaction at Different Levels</a>
+              </div>
+              <style>
+                .w3-content {
+                   position: relative;
+                   left: 10%;
+                   width: 80%;
+                 height: 80%;
+                 box-shadow: 0px 0px 15px 5px #000000b1;
+                border: 1px;
+               border-radius: 20px;
+
+                }
+                .w3-left { 
+                    position: relative;
+                    left: -5%;
+                    top: -350px;
+                    width: 120%;
+                    color: darkgreen;
+                }
+
+                .w3-right { 
+                    position: relative;
+                    left: 105%;
+                    top: -360px;
+                    color: darkgreen;
+                }
+
+
+              </style>
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function currentDiv(n) {
+                showDivs(slideIndex = n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+                x[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " w3-white";
+              }
+              </script>
 
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -157,8 +228,144 @@
             
             <a class="frametext" href="https://www.figma.com/file/9ssO8UfmQ3nTTvmsRt9fi9/EARTH-HOUR.Karsyn%7CDivyani?type=design&node-id=0%3A1&mode=design&t=RDqiQuk233PY6Xqo-1">Visualizing Climate Change workshop</a>
 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="story"> <br><br><br>
+            <iframe id="story" class="iframe" src="../../../lab/workshops/01_story-style/index.html" title="Story Style workshop">
+            </iframe>
+            </div>
+
+            <br><br>
             
-    </div>
+            <a class="frametext" href="../../../lab/workshops/01_story-style/index.html">Story Style workshop</a>
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="webring"> <br><br><br>
+            <iframe id="webring" class="iframe" src="../../../lab/projects/01_introduction/index.html" title="Introduction Webring">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/01_introduction/index.html">Introduction Webring</a>
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <div id="Layout"> <br><br><br>
+            <iframe id="Layout" class="iframe" src="../../../lab/workshops/02_layout/index.html" title="Layout workshop">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/workshops/01_story-style/index.html">Layout workshop</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="class"> <br><br><br>
+            <iframe id="class" class="iframe" src="../../../lab/projects/02_class-stylesheet/index.html" title="Class Stylesheet">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/02_class-stylesheet/index.html">Class Stylesheet</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="intro"> <br><br><br>
+            <iframe id="intro" class="iframe" src="../../../lab/workshops/03_js-intro/index.html" title="JS-introduction workshop">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/workshops/03_js-intro/index.html">JS-introduction workshop</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="jouranl"> <br><br><br>
+            <iframe id="jouranl" class="iframe" src="../../../lab/projects/03_journal-index/index.html" title="Jouranl Index">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/03_journal-index/index.html">Journal Index</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="event"> <br><br><br>
+            <iframe id="event" class="iframe" src="../../../lab/workshops/05_event-listeners/index.html" title="Event-listeners workshop">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/workshops/05_event-listeners/index.html">Event-listeners workshop</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="object"> <br><br><br>
+            <iframe id="object" class="iframe" src="../../../lab/projects/04_collection-object/index.html" title="Collection Object">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/04_collection-object/index.html">Collection Object</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="time"> <br><br><br>
+            <iframe id="time" class="iframe" src="../../../lab/workshops/06_time/clock-1.html" title="Time workshop">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/workshops/06_time/clock-1.html">Time workshop</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="dom"> <br><br><br>
+            <iframe id="dom" class="iframe" src="../../../lab/projects/05_collection-dom/index.html" title="Collection Dom">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/05_collection-dom/index.html">Collection Dom</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="api"> <br><br><br>
+            <iframe id="api" class="iframe" src="../../../lab/workshops/08_apiclimate/script.js" title="Api Climate workshop">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/workshops/08_apiclimate/script.js">Api Climate workshop</a>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div id="overtime"> <br><br><br>
+            <iframe id="overtime" class="iframe" src="../../../lab/projects/06_text-over-time/index.html" title="Text Over Time">
+            </iframe>
+            </div>
+
+            <br><br>
+            
+            <a class="frametext" href="../../../lab/projects/06_text-over-time/index.html">Text Over Time</a>
+
+            
+            
+    </div> 
     
 </body>
 </html>
